@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+    background-color: #00416A !important;
+    height: 10px;
+}
+
+.container-fluid {
+    background-color: #00416A;
+}
+
+#h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+#p {
+    font-family: " cursive";
+    font-size: 20px;
+    margin-right: 400px;
+}
+
+.textConten {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.imgmainprofile {
+    /* display: flex; */
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+
+.imgmainprofile img {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 200px;
+    /* background-color: coral; */
+    /* margin-left: 20px; */
+    /* z-index: 2px; */
+}
+
+.iconMain {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    /* color: black; */
+}
+
+#imgProfile {
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+/* .imgmainprofile{
+    border: 5px solidn black;
+    height: 10px;
+    width: 10px;
+} */
+.circle {
+    /* border: 5px solidn black ; */
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    bottom: 0;
+    /* background-color: antiquewhite;
+    z-index: 2; */
+    /* background-color: black; */
+}
+
+/* .container-project{
+    padding: 0 50px;
+} */
+.nav_center {
+    padding: 20px 300px;
+    background-color: transparent !important;
+}
+
+.col {
+    height: 100px;
+    width: 200px;
+    margin: 5px;
+    background-color: bisque;
+}
+
+.input_center {
+    margin-top: 20px;
+    background-color: transparent !important;
+}
+
+.project_h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.progres-me {
+    margin: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.progres-me h2 {
+    font-size: 40px;
+    /* font-family: ; */
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+}
+
+.project_h1 {
+    margin-top: 20px;
+padding: 10px 100px;
+    /* padding: 10px 300px; */
+    height: 100px;
+    text-shadow: 5px 5px 5px black;
+    /* width: 0px; */
+    
+}
+
+.h1_box {
+    margin: 0px 200px;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+.auto_type{
+    font-size: 40px;
+    margin-left: 20px;
+}
