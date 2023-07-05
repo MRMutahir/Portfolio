@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let modalBody = document.querySelector('.m-b');
 let modal_video = document.querySelector('.modal_video');
 let description = document.querySelector('.description');
-let src= document.querySelector('.src');
+let srcs = document.querySelector('#srcs');
 let modal_h1 = document.querySelector("#modal_h1");
 console.log(modal_h1)
 let web_links = document.querySelector('.web_links');
@@ -30,44 +30,46 @@ let web_3 = document.querySelector('#web_3');
 
 let obj1 = [{
     id: 1,
-    Description: 'BISMILALLAH',
-    h1:'a',
-    videoSrc: 'Bandicam/bandicam 2023-06-12 01-45-27-003.mp4',
+    Description: "I am thrilled to have completed my first assignment successfully! It was a challenging yet rewarding experience that allowed me to apply my knowledge and skills. I dedicated time and effort to understand the requirements, plan my approach, and execute the project to the best of my abilities. Overcoming obstacles along the way only fueled my determination to deliver a high-quality solution. This assignment has not only deepened my understanding of the subject matter but also boosted my confidence as a developer. I am proud of what I have accomplished and look forward to tackling more projects in the future.",
+    h1: 'I-PHONE',
+    videoSrc: 'file:///C:/Users/PC/Desktop/Bandicam/iphone.mp4',
     link: 'https://taupe-profiterole-7eea16.netlify.app',
 }, {
     id: 2,
-    Description: 'BISMILALLAH',
-    h1:'b',
-    videoSrc: 'c:\Users\PC\Documents\Bandicam\bandicam 2023-06-12 02-02-58-114.mp4',
+    Description: "Participating in this hackathon is an exciting opportunity for me to challenge myself, showcase my skills, and collaborate with fellow developers. I'm eager to apply my knowledge of HTML, CSS, and Bootstrap to create a Toyota-themed web project that stands out. I look forward to pushing my creative boundaries, solving problems, and delivering a high-quality website that captures the essence of Toyota and provides a seamless user experience. This hackathon is a chance for me to learn, grow, and make a meaningful contribution to the team. I am motivated to give my best effort and make this project a success.",
+    h1: "Toyota",
+    videoSrc: './video/toyota.mp4',
     link: 'https://unrivaled-cucurucho-e5e8e9.netlify.app',
-},{
+}, {
     id: 3,
-    Description: 'BISMILALLAH',
-    h1:'c',
-    videoSrc: 'c:\Users\PC\Documents\Bandicam\bandicam 2023-06-12 02-06-50-896.mp4',
+    Description: "I'm thrilled to have completed another task successfully, incorporating Freepik resources into my HTML, CSS, and Bootstrap project. It was a challenging yet fulfilling experience that allowed me to showcase my creativity and design skills. I carefully selected the appropriate Freepik resources, ensuring they aligned perfectly with the requirements of the task. By integrating them into my project, I was able to enhance the visual appeal and user experience of the web page. The combination of HTML, CSS, Bootstrap, and the captivating Freepik resources resulted in a polished and professional final product. This task has further deepened my understanding of front-end development and has given me the confidence to tackle more complex assignments in the future. I'm proud of my accomplishment and eager to continue honing my skills in HTML, CSS, and Bootstrap.",
+    h1: 'Freepik ',
+    videoSrc: './video/freepik.mp4',
     link: 'https://resilient-granita-b816a3.netlify.app'
-    // link: 'https://chat.openai.com/'
+        // link: 'https://chat.openai.com/'
+}, {
+    id: 4,
+    Description: "Completing tasks efficiently and effectively is essential for success in any endeavor. Whether it's a work assignment, a personal project, or a household chore, a well-executed task can bring a sense of accomplishment and productivity. In order to complete tasks successfully, several key factors come into play.",
+    h1: 'Template',
+    videoSrc: './video/template.mp4',
+    link: 'https://reliable-sorbet-f7e122.netlify.app'
+        // link: 'https://chat.openai.com/'
 }];
 
 
-function display(id) {
-    // console.log(id)
-    let number = id;
-    console.log(number)
-    console.log(web_links.innerHTML = obj1[number].link)
-// modal_h1.textContent = obj1[0].h1
-modal_h1.innerHTML = obj1[number].h1;
-web_links.href = obj1[number].link;
-// console.log(obj1[number]);
 
-// obj1.forEach(element => {
-//     // console.log(element);
-    
-// });
+
+function display(id) {
+    let number = id;
+    // console.log(number)
+    // console.log(web_links.innerHTML = obj1[number].link)
+    modal_h1.innerHTML = obj1[number].h1;
+    web_links.href = obj1[number].link;
+    web_links.innerHTML = obj1[number].link;
+
+    description.innerHTML = obj1[number].Description;
+    modal_video.src = obj1[number].videoSrc;
+    console.log(obj1[number].videoSrc);
+
 
 }
-
-// let a = display()
-// web_1.addEventListener('click', display)
-// web_2.addEventListener('click', display)
-// web_3.addEventListener('click', display)

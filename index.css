@@ -68,11 +68,13 @@ body {
     margin-right: 100px;
 }
 
+
 /* .imgmainprofile{
     border: 5px solidn black;
     height: 10px;
     width: 10px;
 } */
+
 .circle {
     /* border: 5px solidn black ; */
     height: 400px;
@@ -87,9 +89,11 @@ body {
     /* background-color: black; */
 }
 
+
 /* .container-project{
     padding: 0 50px;
 } */
+
 .nav_center {
     padding: 20px 300px;
     background-color: transparent !important;
@@ -128,36 +132,82 @@ body {
 
 .project_h1 {
     margin-top: 20px;
-padding: 10px 100px;
+    padding: 10px 100px;
     /* padding: 10px 300px; */
     height: 100px;
     text-shadow: 5px 5px 5px black;
     /* width: 0px; */
-    
 }
 
 .h1_box {
     margin: 0px 200px;
-    background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1A2980;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 10px 10px 10px black;
     border-radius: 10px;
     margin-bottom: 40px;
     margin-top: 40px;
-    
 }
-.auto_type{
+
+.auto_type {
     font-size: 40px;
     margin-left: 20px;
 }
-#service{
+
+#service {
     margin: 100px;
     /* padding: 50px; */
 }
-#service h1{
+
+#service h1 {
     font-family: Montserrat;
 }
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Four columns */
+    grid-template-rows: repeat(3, 1fr);
+    /* Three rows */
+    /* gap: 10px; */
+    /* Gap between grid items */
+    width: 400px;
+    /* Adjust the width as needed */
+    /* margin: 0 auto; */
+    /* Center the container */
+}
+
+.col {
+    background-color: #e3e3e3;
+    padding: 20px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    margin: 10px;
+}
+
+#modal_h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px #1A2980;
+}
+
+.description {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: serif;
+    margin: 10px;
+}
+
+
 /* #service h1{
     
 } */
